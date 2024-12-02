@@ -1,5 +1,8 @@
 // Array containing different titles to cycle through
 var titles = [
+  "G",
+  "Ga",
+  "Gag",
   "Gage",
   
 ];

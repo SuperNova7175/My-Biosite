@@ -208,12 +208,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to generate ASCII art
   function getAsciiArt() {
       return `
-      ____   ________
-      /_   | /  _____/
-       |   |/   __  \ 
-       |   |\  |__\  \
-       |___| \_____  /
-                   \/ 
+      .____   ____   ________  ____. 
+      |   _| /_   | /  _____/ |_   | 
+      |  |    |   |/   __  \    |  | 
+      |  |    |   |\  |__\  \   |  | 
+      |  |_   |___| \_____  /  _|  | 
+      |____|              \/  |____| 
                     
   `;
   }
