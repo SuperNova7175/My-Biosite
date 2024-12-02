@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   // Initial terminal text content
   var terminalTextContent = [
-      "User: YOU",
+      "User: unknown",
       "IP: Loading...",
       "System: Loading...", // System information placeholder
       "Bio Loaded",
@@ -208,12 +208,13 @@ document.addEventListener('DOMContentLoaded', function() {
   // Function to generate ASCII art
   function getAsciiArt() {
       return `
- __     __  _    __    __     __ 
-| _|   / / / |  / /_   \ \   |_ |
-| |   | |  | | | '_ \   | |   | |
-| |  < <   | | | (_) |   > >  | |
-| |   | |  |_|  \___/   | |   | |
-|__|   \_\             /_/   |__|
+       ╔╗ ╔═══╗
+      ╔╝║ ║╔══╝
+      ╚╗║ ║╚══╗
+       ║║ ║╔═╗║
+      ╔╝╚╗║╚═╝║
+      ╚══╝╚═══╝
+ 
   `;
   }
 
